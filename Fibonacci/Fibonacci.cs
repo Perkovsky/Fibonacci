@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text;
-using Fibonacci.Extensions;
+using FibonacciAlgorithm.Extensions;
 
-namespace Fibonacci
+namespace FibonacciAlgorithm
 {
 	public class Fibonacci
 	{
@@ -23,7 +23,7 @@ namespace Fibonacci
 			return result.ToString();
 		}
 
-		public string CalculateUsingDelegateWithCache()
+		public string CalculateUsingDelegateWithMemoization()
 		{
 			var result = new StringBuilder();
 

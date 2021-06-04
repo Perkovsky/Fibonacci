@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Fibonacci.Extensions
+namespace FibonacciAlgorithm.Extensions
 {
 	public static class FuncExtension
 	{
