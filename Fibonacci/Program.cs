@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace FibonacciAlgorithm
+﻿namespace FibonacciAlgorithm
 {
 	class Program
     {
 		static void Main(string[] args)
         {
-			Console.WriteLine("Hello World!");
+			var fibonacci = new Fibonacci(40);
+			System.Console.WriteLine(fibonacci.CalculateUsingCycleMath());
 		}
     }
 }
